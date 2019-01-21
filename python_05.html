@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>ehtolause</title>
+        <title>condition</title>
 	<link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -22,31 +22,31 @@
                         <a href="python_10.html" class="active">Challenges</a>
                 </div>
                 <div class="main">
-    		<h1 id="ehtolause">Ehtolause</h1>
-	    		<p>Ohjelmoinnissa ehtolauseet mahdollistavat ohjelman toimimisen halutulla tavalla silloin, kun ehdot täyttyvät. Ehdot joko täyttyvät (true) tai eivät täyty (false). Jos ehto täyttyy, jotain tapahtuu. Ehtolauseilla voi siis haaroittaa ohjelman suoritusta. Ehtolauseita voi myös laittaa toistensa sisään ja näin tehdä monimutkaisempia haaroituksia. Pythonissa on erilaisia mahdollisuuksia luoda ehtolauseita.</p>
-	    	<h2 id="ehtolauseista">Esimerkkejä ehtolauseista Pythonissa</h2>
-	    		<p>Tämä if-ehtolause ajaa alapuolellaan olevat sisennetyt lauseet, jos ehto täyttyy.</p> 
+    		<h1 id="ehtolause">Condition</h1>
+	    		<p>In programming, conditions allow the program to work as desired when the conditions are met. The conditions are either (true) or not (false). If the condition is met, something happens. Thus, conditions can be used to break the execution of the program. Conditions can also be inserted into each other and thus make more complex branches. There are different possibilities in Python to create conditions.</p>
+	    	<h2 id="ehtolauseista">Examples of Conditions in Python</h2>
+		<p>If the condition is met, this <code>if</code> statement drives the code block below it.</p> 
 			<pre>
-			if jokin ehto:
-				tapahtuu jotain
+			if condition is met:
+				something happens
 			</pre>
-	    		<p>Tämä if else -ehtolause ajaa if:in alapuollella oleva sisennetyt lauseet, jos ehto täyttyy. Muuten se ajaa else:n alapuolella olevat sisennetyt lauseet.</p>
+			<p>This <code>if else</code> statement drives the intended statements below it if the condition is met. Otherwise, it drives the intended statements below the <code>else</code> statement.</p>
 			<pre>
-			if jokin ehto:
-				tapahtuu jotain
+			if condition is met:
+				something happens	
 			else:
-				tapahtuu jotain muuta
+			 	something else happens	
 			</pre>
-			<p>Jos ehtoja on useampia, tehdään se Pythonissa näin (elif on lyhenne else if:stä).</p>
+			<p>If there are more conditions, it is done in Python this way (<code>elif</code> is an abbreviation of <code>else if</code>).</p>
 			<pre>
-			if jokin ehto:
-    				tapahtuu jotain
-			elif toinen ehto:
-    				tapahtuu jotain muuta
-			elif jne. ehto:
-    				tapahtuu jotain muuta
+			if condition is met:
+    				something happens	
+			elif second condition:
+    				something else happens	
+			elif etc. condition:
+    				something else happens	
 			else:
-    				tapahtuu jotain muuta
+    			 	something else happens	
 			</pre>
 		</div>
 		<div class="footer">
